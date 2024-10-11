@@ -25,7 +25,7 @@ function App() {
       <div className="overlay"></div>
 
       {/* Top Logo */}
-      <div className=" mx-auto text-center mt-16 z-10">
+      <div className=" mx-auto text-center mt-24 z-10">
         <img src={topLogo} className="" alt="logo" />
         <p className="text-sm uppercase  text-black text-semibold">
           Lorem Ipsum
