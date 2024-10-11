@@ -3,6 +3,8 @@ import topLogo from "../src/assets/logo1.png"
 import girlImg from "../src/assets/girlRoundImg.png"
 import line from "../src/assets/verticalLine.png"
 import video from "../src/assets/video2.mp4"
+import { LuPhone } from "react-icons/lu";
+import { PiCalendarDot } from "react-icons/pi";
 function App() {
 
 //  position: absolute;
@@ -25,7 +27,7 @@ function App() {
       <div className="overlay"></div>
 
       {/* Top Logo */}
-      <div className=" mx-auto text-center mt-24 z-10">
+      <div className=" mx-auto text-center lg:mt-11 mt-32 z-10">
         <img src={topLogo} className="" alt="logo" />
         <p className="text-sm uppercase  text-black text-semibold">
           Lorem Ipsum
@@ -57,8 +59,8 @@ function App() {
         {/*  */}
         <div className="  font-serif btn_div ">
           <div className=" bg-[#4C5555] text-[#FFFFFF] rounded-full border border-[#3a3a3a] p-4 w-[200px] ">
-            <button> + Lorem</button>
-            <button> + ipsum</button>
+            <button><LuPhone/> Lorem</button>
+            <button> <PiCalendarDot/> ipsum</button>
           </div>
           <p className="text-sm text-[#ffff] my-1">27 + lorem </p>
         </div>{" "}
