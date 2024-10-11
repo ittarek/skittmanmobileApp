@@ -1,29 +1,23 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
 
 
 .overlay {
   position: absolute;
-
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  object-fit: cover;
-/* background-image:
-    linear-gradient(to bottom, rgba(1, 1, 1, -0) 0%, rgba(10, 17, 10, 0.4) 100%); */
-  background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+bottom: 0;
+    margin: auto;
+object-fit: cover;
+    background:
+      linear-gradient(to bottom, rgba(1, 1, 1, -0) 0%, rgba(10, 17, 10, 0.4) 100%);
   background-position: center;
-  /* opacity: 0.8; */
-  z-index: 1;
-  /* height: 100%; */
-  /* background: linear-gradient(180deg, rgba(33, 44, 46, 0) 0%, #212C2E 100%); */
+background-size: cover;
 }
-.btn_div button{
+
+.btn_div button {
   text-transform: uppercase;
 }
+
+
+  
